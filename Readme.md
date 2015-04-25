@@ -15,12 +15,9 @@ A. _Just run run the code in Eclipse.
 
 ### _How to setup the deployment environment_
 
-- _Required Eclipse with latest Android SDK with 4.0 IceCream Sandwich_
+- _Required Eclipse with latest Android SDK with 4.0 IceCream Sandwich
 
 ## Contributing changes
 
-- _Email : parthtrivedi2492@gmail.com_
-- _"Please open github issues, emails can get messy"_
+- _Email : ap4393@gmail.com,dhrusmart@gmail.com
 
-## License
-MIT License
