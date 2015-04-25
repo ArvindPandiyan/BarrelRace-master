@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/darkblue"
+    android:columnCount="3"
+    android:orientation="horizontal" >
+
+    <SurfaceView
+        android:id="@+id/bouncing_ball_surface"
+        android:layout_height="382dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal" />
+
+    <Space
+        android:layout_column="2"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="2" />
+
+    <ImageButton
+        android:id="@+id/reset_button"
+        android:layout_width="151dp"
+        android:layout_height="151dp"
+        android:layout_column="1"
+        android:layout_gravity="right|top"
+        android:layout_row="1"
+        android:background="@drawable/ic_action_refresh"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="303dp"
+        android:layout_column="1"
+        android:layout_gravity="left|center_vertical"
+        android:layout_row="1"
+        android:gravity="center"
+        android:text="@string/_00_00_00"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:background="@drawable/ic_action_play"
+        android:contentDescription="@null" />
+
+</GridLayout>
